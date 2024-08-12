@@ -1,0 +1,61 @@
+.top-tracks {
+  padding: 20px;
+}
+
+.top-tracks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-tracks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.track-info {
+  flex: 1;
+  text-align: left;
+}
+
+.track-actions button {
+  margin-left: 10px;
+  background-color: #1db954;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.track-actions button:hover {
+  background-color: #1ed760;
+}
+
+/* new */
+/* src/components/TopTracks.css */
+.top-tracks {
+  margin: 20px;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 8px;
+  color: white;
+}
+
+.top-tracks h2 {
+  font-size: 22px;
+  color: #1DB954;
+  margin-bottom: 15px;
+}
+
+.top-tracks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-tracks ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #404040;
+}

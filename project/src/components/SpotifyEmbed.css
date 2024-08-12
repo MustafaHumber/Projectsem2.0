@@ -1,0 +1,7 @@
+/* src/components/SpotifyEmbed.css */
+.spotify-embed {
+  margin: 20px;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 8px;
+}
